@@ -10,7 +10,7 @@ public class ServiceEmail {
     public static void sendMail(String emailOwner, String emailPerson, String phoneNumberPerson, String id) {
 
         final String username = "technowblog01@gmail.com";
-        final String password = "bfzsilxdibhnjmpl"; //"password per app" per bypassare controllo sicurezza gmail
+        final String password = "@@@@@@@"; //"password per app" per bypassare controllo sicurezza gmail
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
